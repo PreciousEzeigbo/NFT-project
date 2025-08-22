@@ -1,6 +1,6 @@
 # Foundry NFT Project
 
-A comprehensive NFT project built with Foundry that includes two different types of NFTs: a Basic NFT and a Dynamic Mood NFT with on-chain SVG generation.
+An NFT project built with Foundry that includes two different types of NFTs: a Basic NFT and a Dynamic Mood NFT with on-chain SVG generation.
 
 ## 📋 Table of Contents
 
@@ -13,7 +13,11 @@ A comprehensive NFT project built with Foundry that includes two different types
 - [Usage](#usage)
 - [Testing](#testing)
 - [Deployment](#deployment)
-- [Configuration](#configuration)
+- [Configuration](#configuration)git commit -m "feat: Implement dual NFT contracts with on-chain metadata and Base64 encoding
+
+- BasicNft: Simple ERC721 with external URIs
+- MoodNft: Dynamic SVG generation with mood states
+- Full test coverage and deployment automation"
 
 ## 🎯 Overview
 
@@ -316,8 +320,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - [OpenZeppelin](https://openzeppelin.com/) for secure smart contract libraries
 - [Foundry](https://github.com/foundry-rs/foundry) for the excellent development framework
-
-
 
 ---
 
